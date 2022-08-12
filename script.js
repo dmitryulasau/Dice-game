@@ -77,7 +77,7 @@ const handleClick = (event) => {
     document.querySelector(".highscore").textContent = ` TOTAL ATTEMPTS: ${
       attempt + 1
     }`;
-    document.querySelector(".highscore").style.color = "#fcc2d7";
+    document.querySelector(".highscore").style.color = "#d0ebff";
   }
 };
 

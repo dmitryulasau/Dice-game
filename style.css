@@ -10,7 +10,7 @@ h1 {
 }
 
 h2 {
-  font-size: 20px !important;
+  font-size: 16px !important;
   margin-bottom: 20px !important;
 }
 .dice {
@@ -36,9 +36,13 @@ img {
 }
 
 body {
-  color: #e7f5ff !important;
+  color: #74c0fc !important;
 }
 
+h2,
+h4 {
+  color: #d0ebff;
+}
 .btn {
   font-weight: 800 !important;
 }
@@ -54,4 +58,8 @@ body {
 
 .btn:active {
   transform: translate(-1px, 2px);
+}
+
+#new-game {
+  background-color: #ab0819;
 }
