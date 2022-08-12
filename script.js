@@ -91,3 +91,7 @@ document.getElementById("new-game").addEventListener("click", (event) => {
   localStorage.clear();
   window.location.reload();
 });
+
+window.onbeforeunload = () => {
+  localStorage.clear();
+};
