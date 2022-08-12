@@ -23,7 +23,7 @@ h4 {
 }
 
 .container {
-  width: 800px !important;
+  max-width: 800px !important;
   background-color: blue;
   margin: 50px;
   padding: 20px;
@@ -61,5 +61,5 @@ h4 {
 }
 
 #new-game {
-  background-color: #be4bdb;
+  background-color: #a50000;
 }
