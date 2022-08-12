@@ -1,5 +1,25 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+
+body {
+  font-family: "Press Start 2P", sans-serif !important;
+}
+
+h1 {
+  margin-top: 20px !important;
+  font-size: 20px !important;
+}
+
+h2 {
+  font-size: 20px !important;
+  margin-bottom: 20px !important;
+}
 .dice {
   width: 40%;
+}
+
+h4 {
+  margin-top: 20px !important;
+  font-size: 16px !important;
 }
 
 .container {

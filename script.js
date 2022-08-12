@@ -47,9 +47,9 @@ const handleClick = (event) => {
   console.log(roundScore);
 
   let roundResult = document.getElementsByTagName("h2")[0];
-  roundResult.innerHTML = `ROUND SCORE: ${roundScore} - ATTEMPT: ${
-    attempt + 1
-  }`;
+  roundResult.innerHTML = `ROUND SCORE: ${roundScore}`;
+
+  document.querySelector(".highscore").textContent = ` ATTEMPT: ${attempt + 1}`;
 
   totalScore += roundScore;
   console.log(`TOTAL SCORE ${totalScore}`);
@@ -65,16 +65,19 @@ const handleClick = (event) => {
     newGame.classList.remove("hidden");
 
     let congrats = document.getElementsByTagName("h3")[0];
-    congrats.innerHTML = `CONGRATULATIONS! 🏆`;
+    congrats.innerHTML = `🏆 CONGRATULATIONS! 🏆`;
     congrats.style.color = "#FAA94D";
 
     totalResult.innerHTML = `FINAL SCORE: ${totalScore}`;
     totalResult.style.color = "#82c91e";
 
-    roundResult.innerHTML = `ROUND SCORE: ${roundScore} - ATTEMPTS [${
-      attempt + 1
-    }]`;
+    roundResult.innerHTML = `LAST ROUND SCORE: ${roundScore}`;
     roundResult.style.color = "#ffec99";
+
+    document.querySelector(".highscore").textContent = ` TOTAL ATTEMPTS: ${
+      attempt + 1
+    }`;
+    document.querySelector(".highscore").style.color = "#fcc2d7";
   }
 };
 
