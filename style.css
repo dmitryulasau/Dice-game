@@ -1,0 +1,33 @@
+.dice {
+  width: 40%;
+}
+
+.container {
+  width: 800px !important;
+  background-color: blue;
+  margin: 50px;
+  padding: 20px;
+  border-radius: 9px;
+  background-image: linear-gradient(to top left, #141e30 0%, #243b55 100%);
+}
+
+img {
+  border-radius: 9px;
+}
+
+body {
+  color: #e7f5ff !important;
+}
+
+.btn {
+  font-weight: 800 !important;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.info {
+  font-weight: 800;
+  color: #ffa94d;
+}
