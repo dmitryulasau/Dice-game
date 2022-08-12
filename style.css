@@ -31,3 +31,7 @@ body {
   font-weight: 800;
   color: #ffa94d;
 }
+
+.btn:active {
+  transform: translate(-1px, 2px);
+}
